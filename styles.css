@@ -33,6 +33,11 @@ body {
 
 }
 
+#travel-page {
+  max-height: 90vh;
+  overflow: auto;
+}
+
 #popup-leave {
   padding: 1rem;
   border: 1px solid #fff;
