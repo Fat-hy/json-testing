@@ -61,9 +61,6 @@ function handleCardClick(target) {
       } else if (thisID === "adv-card") {
         addJSON("https://safitravel.netlify.app/adventure.json");
         navOptions[3].classList.add("active");
-      } else if (thisID === "featured-card") {
-        addJSON("https://safitravel.netlify.app/featured.json");
-        navOptions[4].classList.add("active");
       }
     });
   });
@@ -156,6 +153,14 @@ function addJSON(jsonLink) {
       popupLeave.addEventListener("click", function () {
         popUpBox.style.display = "none";
       });
+    })
+    .catch((error) => {
+      postContainer.textContent = `<div id="popup">
+      <h2>The server responded with an error</h2>
+      <p>${error}</p>
+      <a href="/" id="popup-leave" class="btn">REFRESH<a/>
+    </div>`;
+      console.error("Error:", error);
     });
 }
 
