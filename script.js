@@ -50,19 +50,19 @@ function handleCardClick(target) {
     card.addEventListener("click", function () {
       let thisID = this.id;
       if (thisID === "religious-card") {
-        addJSON("http://127.0.0.1:5500/holy_sites.json");
+        addJSON("https://safitravel.netlify.app/holy_sites.json");
         navOptions[0].classList.add("active");
       } else if (thisID === "nature-card") {
-        addJSON("http://127.0.0.1:5500/nature.json");
+        addJSON("https://safitravel.netlify.app/nature.json");
         navOptions[1].classList.add("active");
       } else if (thisID === "history-card") {
-        addJSON("http://127.0.0.1:5500/historical_sites.json");
+        addJSON("https://safitravel.netlify.app/historical_sites.json");
         navOptions[2].classList.add("active");
       } else if (thisID === "adv-card") {
-        addJSON("http://127.0.0.1:5500/adventure.json");
+        addJSON("https://safitravel.netlify.app/adventure.json");
         navOptions[3].classList.add("active");
       } else if (thisID === "featured-card") {
-        addJSON("http://127.0.0.1:5500/featured.json");
+        addJSON("https://safitravel.netlify.app/featured.json");
         navOptions[4].classList.add("active");
       }
     });
