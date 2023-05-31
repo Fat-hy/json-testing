@@ -1,0 +1,32 @@
+[
+  {
+    "place_name": "Dubai, UAE",
+    "place_website": "madinah.saudi.gov",
+    "publisher": "Abu Fatima",
+    "published_time": 60,
+    "tags": ["Adventure", "Educational", "City"],
+    "upvotes": 57,
+    "comments": 35,
+    "picture_link": "https://shorturl.at/amO39"
+  },
+  {
+    "place_name": "Himalayas, Nepal",
+    "place_website": "himalayas.tv",
+    "publisher": "Kemal Khan",
+    "published_time": 1233,
+    "tags": ["Adventure", "Educational", "Nature"],
+    "upvotes": 78,
+    "comments": 59,
+    "picture_link": "https://shorturl.at/chlL1"
+  },
+  {
+    "place_name": "Bali, Indonesia",
+    "place_website": "explore.com",
+    "publisher": "Ibn Abyasa",
+    "published_time": 1233,
+    "tags": ["Adventure"],
+    "upvotes": 5,
+    "comments": 5,
+    "picture_link": "https://shorturl.at/klA14"
+  }
+]

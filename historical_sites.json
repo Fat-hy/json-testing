@@ -1,0 +1,32 @@
+[
+  {
+    "place_name": "Istanbul, Turkiye",
+    "place_website": "madinah.saudi.gov",
+    "publisher": "Al Saud",
+    "published_time": 60,
+    "tags": ["Adventure", "Educational", "Nature"],
+    "upvotes": 595,
+    "comments": 39,
+    "picture_link": "https://shorturl.at/esyY6"
+  },
+  {
+    "place_name": "San'aa, Yemen",
+    "place_website": "himalayas.tv",
+    "publisher": "Sara Adams",
+    "published_time": 1233,
+    "tags": ["Culture", "Educational", "History"],
+    "upvotes": 975,
+    "comments": 84,
+    "picture_link": "https://shorturl.at/dvRW0"
+  },
+  {
+    "place_name": "Baghdad, Iraq",
+    "place_website": "explore.com",
+    "publisher": "Fahad",
+    "published_time": 1233,
+    "tags": ["History", "Educational", "Culture"],
+    "upvotes": 78,
+    "comments": 26,
+    "picture_link": "https://shorturl.at/eJQTV"
+  }
+]

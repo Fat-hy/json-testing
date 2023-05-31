@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="up-arrow.png" type="image/x-icon" />
+    <script src="script.js" async></script>
+    <title>Recommendation Page</title>
+  </head>
+  <body>
+    <div id="homepage">
+      <nav class="main-nav">
+        <a href="/" class="head"><h2>SafiTravel</h2></a>
+
+        <ul class="main-menu">
+          <li><a href="#">Office</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Why Us</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+
+      <div class="container-home">
+        <!-- Showcase -->
+        <header class="showcase">
+          <h2 class="showcase-text">
+            Affordable Spiritual Journeys and Global Adventures!
+          </h2>
+          <p class="showcase-text">
+            SafiTravel offers unbeatable prices. Hassle-free arrangements,
+            captivating trips worldwide. Memories without breaking the bank.
+          </p>
+          <a href="#home-cards" class="btn showcase-text"
+            >GET STARTED BY CHOOSING A DESTINATION BELOW</a
+          >
+        </header>
+
+        <!-- Home cards 1 -->
+        <section id="home-cards">
+          <div class="home-card" id="adv-card">
+            <img
+              src="https://images7.alphacoders.com/411/411973.jpg"
+              alt="Adventure"
+              class="featured-img"
+            />
+            <h3>Adventure</h3>
+            <p>
+              Thrilling activities,breathtaking landscapes and adventure awaits.
+            </p>
+            <a href="#travel-page" class="see-more">See More</a>
+          </div>
+
+          <div class="home-card" id="nature-card">
+            <img src="https://rb.gy/jew9w" alt="nature" class="featured-img" />
+            <h3>Nature</h3>
+            <p>
+              Stunning and breathtaking natural wonders to immerse yourself in.
+            </p>
+            <a href="#travel-page" class="see-more">See More</a>
+          </div>
+          <div class="home-card" id="history-card">
+            <img
+              src="https://turkishtravelblog.com/wp-content/uploads/2014/06/imperial-gate.jpg"
+              alt=""
+              class="featured-img"
+            />
+            <h3>Historical Sites</h3>
+            <p>
+              Explore the development of civilization and how we became who we
+              are today.
+            </p>
+            <a href="#travel-page" class="see-more">See More</a>
+          </div>
+          <div class="home-card" id="religious-card">
+            <img
+              src="https://rb.gy/zek3v"
+              alt="historical-site"
+              class="featured-img"
+            />
+            <h3>Holy Sites</h3>
+            <p>Embark on a holy journey of spiritual enlightment</p>
+            <a href="#travel-page" class="see-more">See More</a>
+          </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="footer-inner">
+            <a href="#">&copy; SafiTravel; 2023</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <div class="container" id="travel-page">
+      <div class="wrapper-grid">
+        <nav class="top-nav">
+          <div class="logo-img">
+            <a href="/"><img src="yote-png.jpeg" alt="logo image" /></a>
+          </div>
+          <ul class="nav-bar">
+            <li>
+              <a href="#post-box" class="nav-options" id="adv-card"
+                >Adventure</a
+              >
+            </li>
+            <li>
+              <a href="#post-box" class="nav-options" id="nature-card"
+                >Nature</a
+              >
+            </li>
+            <li>
+              <a href="#post-box" class="nav-options" id="featured-card"
+                >Featured</a
+              >
+            </li>
+            <li>
+              <a href="#post-box" class="nav-options" id="religious-card"
+                >Holy Sites</a
+              >
+            </li>
+            <li>
+              <a href="#post-box" class="nav-options" id="history-card"
+                >Historical Sites</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="content-box">
+          <ul class="post-container" id="post-box"></ul>
+        </div>
+      </div>
+      <div id="popup">
+        <h2>Error: Feature Unavailable</h2>
+        <p>
+          We're sorry, but the feature you're trying to access is currently
+          unavailable as it is still being developed. Please check back later
+          for updates. Thank you for your patience.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

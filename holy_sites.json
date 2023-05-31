@@ -1,0 +1,42 @@
+[
+  {
+    "place_name": "Madinah, Saudi Arabia",
+    "place_website": "madinah.saudi.gov",
+    "publisher": "Al Ahdal Bin Sayd",
+    "published_time": 60,
+    "tags": ["Religion", "Educational", "History"],
+    "upvotes": 987,
+    "comments": 89,
+    "picture_link": "https://www.sl-rasch.com/wp-content/uploads/2019/06/U269.jpg"
+  },
+  {
+    "place_name": "Makkah, Saudi Arabia",
+    "place_website": "makkah.saudi.gov",
+    "publisher": "Ibn Abdillah",
+    "published_time": 19633,
+    "tags": ["Religion", "Educational", "History"],
+    "upvotes": 475,
+    "comments": 957,
+    "picture_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAFvTYtcz0kJ_GvvMybx3A6isjgwlx6m2nsw&usqp=CAU"
+  },
+  {
+    "place_name": "Damascus, Palestine",
+    "place_website": "explore.com",
+    "publisher": "Uthman ibn Umaya",
+    "published_time": 12393,
+    "tags": ["Religion", "Educational", "History"],
+    "upvotes": 335,
+    "comments": 57,
+    "picture_link": "https://shorturl.at/foGQT"
+  },
+  {
+    "place_name": "Taif, Saudi Arabia",
+    "place_website": "explore.com",
+    "publisher": "Zaid ibn Harith",
+    "published_time": 1239893,
+    "tags": ["History", "Educational"],
+    "upvotes": 68,
+    "comments": 57,
+    "picture_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ6Wr37k5bLYs7XbziCRdAKd8SHmCNqA9Qxg&usqp=CAU"
+  }
+]

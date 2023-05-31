@@ -1,0 +1,32 @@
+[
+  {
+    "place_name": "Ngorongoro, Tanzania",
+    "place_website": "madinah.saudi.gov",
+    "publisher": "Al Saud",
+    "published_time": 60,
+    "tags": ["Adventure", "Educational", "Nature"],
+    "upvotes": 425,
+    "comments": 58,
+    "picture_link": "https://shorturl.at/ezEIS"
+  },
+  {
+    "place_name": "Grand Canyon, USA",
+    "place_website": "himalayas.tv",
+    "publisher": "Sara Adams",
+    "published_time": 1233,
+    "tags": ["Adventure", "Educational", "Nature"],
+    "upvotes": 245,
+    "comments": 175,
+    "picture_link": "https://shorturl.at/fpv78"
+  },
+  {
+    "place_name": "Hạ Long Bay, Vietnam",
+    "place_website": "explore.com",
+    "publisher": " Lodi Al Kindy",
+    "published_time": 1233,
+    "tags": ["Nature", "Culture"],
+    "upvotes": 457,
+    "comments": 465,
+    "picture_link": "https://shorturl.at/koM16"
+  }
+]
