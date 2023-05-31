@@ -155,6 +155,7 @@ li {
   background-color: #fafafa;
   width: 90%;
   border: 1px solid rgba(0, 0, 0, 0.026);
+  overflow-y: scroll;
 }
 
 .post-box {

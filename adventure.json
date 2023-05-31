@@ -20,6 +20,16 @@
     "picture_link": "https://shorturl.at/ciBHS"
   },
   {
+    "place_name": "Sydney, Australia",
+    "place_website": "https://sydneytourismguide.com",
+    "publisher": "Matthew Thompson",
+    "published_time": 100,
+    "tags": ["Beach", "Nature", "Adventure"],
+    "upvotes": 220,
+    "comments": 25,
+    "picture_link": "https://shorturl.at/ciBHS"
+  },
+  {
     "place_name": "Himalayas, Nepal",
     "place_website": "himalayas.tv",
     "publisher": "Kemal Khan",
@@ -30,13 +40,33 @@
     "picture_link": "https://shorturl.at/chlL1"
   },
   {
-    "place_name": "Bali, Indonesia",
-    "place_website": "explore.com",
-    "publisher": "Ibn Abyasa",
-    "published_time": 1233,
-    "tags": ["Adventure"],
-    "upvotes": 534,
-    "comments": 125,
-    "picture_link": "https://shorturl.at/klA14"
+    "place_name": "New York City, USA",
+    "place_website": "https://nyctourism.com",
+    "publisher": "Andrew Miller",
+    "published_time": 150,
+    "tags": ["City", "Culture", "Travel"],
+    "upvotes": 180,
+    "comments": 20,
+    "picture_link": "https://shorturl.at/ciBHS"
+  },
+  {
+    "place_name": "Tokyo, Japan",
+    "place_website": "https://tokyotourismguide.com",
+    "publisher": "Michael Johnson",
+    "published_time": 120,
+    "tags": ["City", "Food", "Technology"],
+    "upvotes": 350,
+    "comments": 40,
+    "picture_link": "https://shorturl.at/ciBHS"
+  },
+  {
+    "place_name": "Sydney, Australia",
+    "place_website": "https://sydneytourismguide.com",
+    "publisher": "Matthew Thompson",
+    "published_time": 100,
+    "tags": ["Beach", "Nature", "Adventure"],
+    "upvotes": 220,
+    "comments": 25,
+    "picture_link": "https://shorturl.at/ciBHS"
   }
 ]

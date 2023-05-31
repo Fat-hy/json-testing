@@ -1,5 +1,16 @@
 [
   {
+    "place_name": "Jerusalem, Palestine",
+    "place_website": "https://jerusalemguide.com",
+    "publisher": "Eli Cohen",
+    "published_time": 140,
+    "tags": ["Historical", "Religious", "Culture"],
+    "upvotes": 330,
+    "comments": 28,
+    "picture_link": "https://shorturl.at/ciBHS"
+  },
+
+  {
     "place_name": "Istanbul, Turkiye",
     "place_website": "madinah.saudi.gov",
     "publisher": "Al Saud",
@@ -38,5 +49,35 @@
     "upvotes": 59,
     "comments": 48,
     "picture_link": "https://shorturl.at/oTYZ8"
+  },
+  {
+    "place_name": "Athens, Greece",
+    "place_website": "https://athenstourismguide.com",
+    "publisher": "Nikolas Papadopoulos",
+    "published_time": 90,
+    "tags": ["Historical", "Architecture", "Culture"],
+    "upvotes": 420,
+    "comments": 35,
+    "picture_link": "https://shorturl.at/ciBHS"
+  },
+  {
+    "place_name": "Rome, Italy",
+    "place_website": "https://rometourismguide.com",
+    "publisher": "Giuseppe Rossi",
+    "published_time": 160,
+    "tags": ["Historical", "Art", "Cuisine"],
+    "upvotes": 280,
+    "comments": 15,
+    "picture_link": "https://shorturl.at/ciBHS"
+  },
+  {
+    "place_name": "Cusco, Peru",
+    "place_website": "https://cuscotourismguide.com",
+    "publisher": "Diego Ramirez",
+    "published_time": 130,
+    "tags": ["Historical", "Adventure", "Culture"],
+    "upvotes": 270,
+    "comments": 20,
+    "picture_link": "https://shorturl.at/ciBHS"
   }
 ]

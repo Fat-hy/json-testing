@@ -10,6 +10,16 @@
     "picture_link": "https://shorturl.at/ezEIS"
   },
   {
+    "place_name": "Bali, Indonesia",
+    "place_website": "explore.com",
+    "publisher": "Ibn Abyasa",
+    "published_time": 1233,
+    "tags": ["Adventure"],
+    "upvotes": 534,
+    "comments": 125,
+    "picture_link": "https://shorturl.at/klA14"
+  },
+  {
     "place_name": "Grand Canyon, USA",
     "place_website": "himalayas.tv",
     "publisher": "Sara Adams",
@@ -20,6 +30,16 @@
     "picture_link": "https://shorturl.at/fpv78"
   },
   {
+    "place_name": "Serengeti National Park, Tanzania",
+    "place_website": "https://serengetinationalpark.com",
+    "publisher": "Daniel Kimani",
+    "published_time": 100,
+    "tags": ["Nature", "Safari", "Conservation"],
+    "upvotes": 380,
+    "comments": 25,
+    "picture_link": "https://shorturl.at/crtX6"
+  },
+  {
     "place_name": "Hạ Long Bay, Vietnam",
     "place_website": "explore.com",
     "publisher": " Lodi Al Kindy",
@@ -28,5 +48,35 @@
     "upvotes": 457,
     "comments": 465,
     "picture_link": "https://shorturl.at/koM16"
+  },
+  {
+    "place_name": "The Great Barrier Reef, Australia",
+    "place_website": "https://greatbarrierreef.com",
+    "publisher": "Jacob Williams",
+    "published_time": 80,
+    "tags": ["Nature", "Diving", "Marine Life"],
+    "upvotes": 550,
+    "comments": 47,
+    "picture_link": "https://shorturl.at/afAD2"
+  },
+  {
+    "place_name": "Banff National Park, Canada",
+    "place_website": "https://banffnationalpark.com",
+    "publisher": "Michael Thompson",
+    "published_time": 75,
+    "tags": ["Nature", "Hiking", "Wildlife"],
+    "upvotes": 510,
+    "comments": 42,
+    "picture_link": "https://shorturl.at/dqVW6"
+  },
+  {
+    "place_name": "Iguazu Falls, Argentina and Brazil",
+    "place_website": "https://iguazufalls.com",
+    "publisher": "Lucas Santos",
+    "published_time": 85,
+    "tags": ["Nature", "Waterfalls", "Adventure"],
+    "upvotes": 460,
+    "comments": 38,
+    "picture_link": "https://shorturl.at/mnqM3"
   }
 ]
