@@ -7,6 +7,15 @@ let travelPage = document.querySelector("#travel-page");
 let commentsBox;
 let upvoteBox;
 let popUpBox;
+let popupLeave;
+let playCircle;
+let boxes;
+let errorMsg = `We're sorry, but the feature you're trying to access is currently
+unavailable as it is still being developed. Please check back later
+for updates. Thank you for your patience.`;
+let popUpText = document.querySelector("#popup-text");
+popUpText.textContent = errorMsg;
+
 // In Homepage
 const advCard = document.querySelector("#adv-card");
 const natureCard = document.querySelector("#nature-card");
@@ -110,7 +119,7 @@ function addJSON(jsonLink) {
               class="img-div"
             />
 
-            <a href="/" class="play-circle"
+            <a href="#popup" class="play-circle"
               ><img
                 src="play-arrow.png"
                 alt="play triangle"
@@ -140,16 +149,42 @@ function addJSON(jsonLink) {
           </div>
         </li>`;
       }
-      commentsBox = document.querySelector(".comments-box");
-      upvoteBox = document.querySelector(".upvote-counter");
+      popupLeave = document.querySelector("#popup-leave");
+
       popUpBox = document.querySelector("#popup");
-      commentsBox.addEventListener("click", showPopup(commentsBox));
-      upvoteBox.addEventListener("click", showPopup(upvoteBox));
+
+      popupLeave.addEventListener("click", function () {
+        popUpBox.style.display = "none";
+      });
     });
 }
-function showPopup(popUp) {
-  popUp.addEventListener("click", function () {
-    popUpBox.style.display = "grid";
-    alert("Mwenyewe Hataki");
+
+function openPopupComments() {
+  commentsBox = document.querySelectorAll(".comments-box");
+  commentsBox.forEach((item) => {
+    item.addEventListener("click", function () {
+      popUpBox.style.display = "grid";
+    });
   });
 }
+function openPopupUpvotes() {
+  upvoteBox = document.querySelectorAll(".upvote-counter");
+  upvoteBox.forEach((item) => {
+    item.addEventListener("click", function () {
+      popUpBox.style.display = "grid";
+    });
+  });
+}
+
+function openPopupVideo() {
+  playCircle = document.querySelectorAll(".play-circle");
+  playCircle.forEach((item) => {
+    item.addEventListener("click", function () {
+      popUpBox.style.display = "grid";
+    });
+  });
+}
+
+openPopupComments();
+openPopupUpvotes();
+openPopupVideo();

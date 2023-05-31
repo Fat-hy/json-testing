@@ -9,7 +9,7 @@ body {
 .blur {
   filter: blur(10px);
   opacity: 0;
-  transition: filter 1s ease-in-out, opacity 1s ease-in-out;
+  transition: filter 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 @keyframes unblur {
@@ -25,11 +25,19 @@ body {
 }
 
 #travel-page,
-#homepage {
+#homepage,
+#popup {
   animation-name: unblur;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
 
+}
+
+#popup-leave {
+  padding: 1rem;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
 }
 
 * {
@@ -259,6 +267,8 @@ li {
   display: grid;
   justify-items: center;
   align-items: center;
+  min-width: 20px;
+  min-height: 20px;
   width: 1.3rem;
   height: 1.3rem;
   border-radius: 50%;
@@ -284,7 +294,10 @@ li {
   background-color: #c95e32;
   color: #fff;
   width: 50vw;
-  height: 30vh;
+  max-width: 900px;
+  min-width: 300px;
+  min-height: 300px;
+  height: 40vh;
   z-index: 3;
   padding: 3rem;
 }
